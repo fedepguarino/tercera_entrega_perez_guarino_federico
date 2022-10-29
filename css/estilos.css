@@ -58,6 +58,14 @@ footer{
         height: 200px;
     }
 
+    h1{
+        font-size: 40px;
+    }
+
+    h2{
+        font-size: 25px;
+    }
+
     .foto_main{
         width: 100%;
         height: 100%;
