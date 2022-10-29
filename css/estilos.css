@@ -131,26 +131,31 @@ footer{
         height: 100px;
         width: 100px;
     }
+
     .div_footer_hijo{
         width: 45%;
 
     }
+
     .img_footer{
         height: 30px;
         width: 30px;
     }
+
     #div_footer{
         justify-content:space-around;
         align-items: center;
         height: 60px;
 
-    }        
+    }      
+    
     h3{font-size: 12px;}
 
     #ul_nav_footer{
         justify-content: space-around;
 
     }
+
     .youtube{    
 
         height: 300px;
@@ -161,6 +166,101 @@ footer{
         height: 100px;
         width: 80%;
     }
+
+    #grilla_galeria{
+        display: grid;
+        height: 90%;
+        grid-template-columns: 40% 40%;
+        grid-template-rows: 5% 15% 5% 15% 5% 15%;
+        grid-template-areas: "titulo_img1 img_galeria1"
+                            "parrafo_1 img_galeria1"
+                            "titulo_img2 img_galeria2"
+                            "parrafo_2 img_galeria2"
+                            "titulo_img3 img_galeria3"
+                            "parrafo_3 img_galeria3";
+        justify-content: center;
+        align-content: space-around;
+        justify-items: center;
+        align-items: center;   
+        background-image: linear-gradient( to bottom, black, grey);
+        height: 2000px;
+    }
+
+    #titulo_img1{
+        font-size: 30px;
+        color: rgb(133, 0, 0);
+        font-family: "Roboto";
+        align-self:flex-end;
+        text-decoration: underline;
+        
+    }
+    #titulo_img2{
+        font-size: 30px;
+        color: rgb(133, 0, 0);
+        font-family: "Roboto";
+        align-self:flex-end;
+        text-decoration: underline;
+    }
+    #titulo_img3{
+        font-size: 30px;
+        color: rgb(133, 0, 0);
+        font-family: "Roboto";
+        align-self:flex-end;
+        text-decoration: underline;
+    }
+
+    .img_galeria1{
+        height: 85%;
+        width: 100%;
+        object-fit: cover;
+        grid-area: img_galeria1;
+    }
+    .img_galeria2{
+        height: 85%;
+        width: 100%;
+        object-fit: cover;
+        grid-area: img_galeria2;
+    }
+    .img_galeria3{
+        height: 85%;
+        width: 100%;
+        object-fit: cover;
+        grid-area: img_galeria3;
+    }
+    .img_galeria1:hover{
+        transform: scale(1.1);
+        transition: 2s;
+    }
+    .img_galeria2:hover{
+        transform: scale(1.1);
+        transition: 2s;
+    }
+    .img_galeria3:hover{
+        transform: scale(1.1);
+        transition: 2s;
+    }
+    
+    .parrafo_1{
+        color: rgb(255, 255, 255);
+        font-size: 15px;
+        font-family: "Roboto";
+        justify-self: start;
+        align-self: flex-start;}
+    
+    .parrafo_2{
+        color: rgb(202, 202, 202);
+        font-size: 15px;
+        font-family: "Roboto";
+        justify-self: start;
+        align-self: flex-start;
+    }        
+    .parrafo_3{
+        color: rgb(175, 175, 175);
+        font-size: 15px;
+        font-family: "Roboto";
+        justify-self: start;
+        align-self: flex-start;}
+
 }
 
 
@@ -295,16 +395,19 @@ footer{
         width: 45%;
 
     }
+
     .img_footer{
         height: 60px;
         width: 60px;
     }
+
     #div_footer{
         justify-content:space-around;
         align-items: center;
         height: 130px;
 
-    }        
+    }   
+    
     h3{font-size: 25px;
         font-style: italic ;
     }
@@ -314,7 +417,99 @@ footer{
 
     }
 
-}
+    #grilla_galeria{
+        display: grid;
+        height: 90%;
+        grid-template-columns: 40% 40%;
+        grid-template-rows: 5% 15% 5% 15% 5% 15%;
+        grid-template-areas: "titulo_img1 img_galeria1"
+                            "parrafo_1 img_galeria1"
+                            "titulo_img2 img_galeria2"
+                            "parrafo_2 img_galeria2"
+                            "titulo_img3 img_galeria3"
+                            "parrafo_3 img_galeria3";
+        justify-content: center;
+        align-content: space-around;
+        justify-items: center;
+        align-items: center;   
+        background-image: linear-gradient( to bottom, black, grey);
+    }
+
+    #titulo_img1{
+        font-size: 50px;
+        color: rgb(133, 0, 0);
+        font-family: "Roboto";
+        align-self:flex-end;
+        text-decoration: underline;
+        
+    }
+    #titulo_img2{
+        font-size: 50px;
+        color: rgb(133, 0, 0);
+        font-family: "Roboto";
+        align-self:flex-end;
+        text-decoration: underline;
+    }
+    #titulo_img3{
+        font-size: 50px;
+        color: rgb(133, 0, 0);
+        font-family: "Roboto";
+        align-self:flex-end;
+        text-decoration: underline;
+    }
+
+    .img_galeria1{
+        height: 100%;
+        width: 70%;
+        object-fit: cover;
+        grid-area: img_galeria1;
+    }
+    .img_galeria2{
+        height: 100%;
+        width: 70%;
+        object-fit: cover;
+        grid-area: img_galeria2;
+    }
+    .img_galeria3{
+        height: 100%;
+        width: 70%;
+        object-fit: cover;
+        grid-area: img_galeria3;
+    }
+    .img_galeria1:hover{
+        transform: scale(1.1);
+        transition: 2s;
+    }
+    .img_galeria2:hover{
+        transform: scale(1.1);
+        transition: 2s;
+    }
+    .img_galeria3:hover{
+        transform: scale(1.1);
+        transition: 2s;
+    }
+    
+    .parrafo_1{
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        font-family: "Roboto";
+        justify-self: start;
+        align-self: flex-start;}
+    
+    .parrafo_2{
+        color: rgb(202, 202, 202);
+        font-size: 30px;
+        font-family: "Roboto";
+        justify-self: start;
+        align-self: flex-start;
+    }        
+    .parrafo_3{
+        color: rgb(175, 175, 175);
+        font-size: 30px;
+        font-family: "Roboto";
+        justify-self: start;
+        align-self: flex-start;}
+    }
 
 
 
