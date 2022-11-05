@@ -40,7 +40,7 @@
         <div id="div_main_form">
             <form action="">
                 <fieldset id="fieldset_contacto">
-                    <legend>DATOS PERSONALES</legend>
+                    <legend id="legend_contacto">DATOS PERSONALES</legend>
                 <div id="div_de_form">
                     <label for="nombre">NOMBRE</label>
                     <input type="text" id="input_form" placeholder="Ingrese su nombre">
@@ -59,8 +59,10 @@
                     <label for="comentario">COMENTARIO</label>
                     <textarea name="" id="comentario" cols="30" rows="10" placeholder="Aquí podrá escribir su comentario o consulta. Muchas gracias."></textarea>
                     
-                    <button type="button" class="btn btn-outline-primary">ENVIAR</button>
-                    <button type="button" class="btn btn-outline-danger">BORRAR</button>
+                    
+                    <input class="btn btn-outline-primary" type="submit">
+                    <input class="btn btn-outline-danger" type="reset">
+                    
                 </div>
                 </fieldset>
             </form>
