@@ -1,0 +1,25 @@
+{
+  "name": "repositorio_proyecto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "sass scss:css",
+    "watch-css": "sass scss:css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fedepguarino/segunda_entrega_perez_guarino_federico.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fedepguarino/segunda_entrega_perez_guarino_federico/issues"
+  },
+  "homepage": "https://github.com/fedepguarino/segunda_entrega_perez_guarino_federico#readme",
+  "dependencies": {
+    "nodemon": "^2.0.20",
+    "sass": "^1.56.1"
+  }
+}
